@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.itemList {
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 845px;
+    background-color: #fff;
+    border: 2px solid grey;
+    padding: 20px;
+    box-shadow: 0, 10, 10, 10, gray;
+}
+
+.inp-2,
+.inp-1 {
+    border-radius: 20px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.editBtn {
+    background-color: rgb(0, 128, 87);
+    max-width: 445px;
+    height: 50px;
+    border-radius: 15px;
+    border: 3px solid transparent;
+    color: #fff;
+    transition: 1s;
+}
+
+.editBtn:hover {
+    background-color: #fff;
+    border: 3px solid rgb(0, 128, 87);
+    color: rgb(0, 128, 87);
+}
+
+.btn {
+    margin: 0 auto;
+    max-width: 445px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(0, 128, 255);
+    border: 3px solid transparent;
+    color: #fff;
+    transition: 1s;
+    margin-right: 0 auto;
+}
+
+.btn:hover {
+    background-color: #fff;
+    border: 3px solid rgb(0, 128, 255);
+    color: rgb(0, 128, 255);
+}
